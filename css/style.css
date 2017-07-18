@@ -58,14 +58,13 @@ header {
 	background-color: orange;
 }
 
-
-
+<!-- img already pulled right -->
 .instructions {
-	float: none;
+	float: right;
 	border: orange;
 }
 
 
-.container {
-	background-color: orange;
+.pull-left {
+	pull-right: "h2"
 }
