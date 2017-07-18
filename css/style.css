@@ -54,7 +54,18 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 
-h1 {
-	border-color: orange;
-	background-color: white;
+header {
+	background-color: orange;
+}
+
+
+
+.instructions {
+	float: none;
+	border: orange;
+}
+
+
+.container {
+	background-color: orange;
 }
