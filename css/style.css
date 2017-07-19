@@ -9,9 +9,6 @@ html, body {
 	margin: 0;
 }
 
-container.em {
-	float: right
-}
 
 .container {
 	margin: 0 auto;
@@ -57,36 +54,63 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+.container {
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5%;
+	padding: 5% 2rem;
+}
+
+.sfooter {
+	min-font-size: 12;
+}
 
 @media only screen and (min-width: 1200px) {
-	.container { width: 1170px; }
-
-
-header {
-	background-color: orange;
+	.container { width: 65%; }
 }
 
-.container{
+
+header .container {
+	background-color: darkorange;
 }
 
-pull-left {
+
+h1 {
 	float: left;
+	color: white;
+}
+
+
+em {
+	float: none;
+	color: white;
+}
+
+
+img {
+	display: inherit;
+	max-width:230px;
+	max-height:95px;
+	width: auto;
+	height: auto;
 }
 
 
 
-.instructions {
-	border: 4px solid darkorange;
-}
-
-.img {
-	float: right;
+div.container .instructions {
+	border: 6px solid darkorange;
 }
 
 
+.pull-right .instructions {
+float: right;
+border: 6px solid darkorange;
+}
 
-
-
+img {
+	float: right
+}
 
 .h2{
 	float: right
@@ -96,21 +120,40 @@ pull-left {
 	float: right
 }
 
-img.pull-right {
-	float: right;
-	border: orange;
-}
-
 
 
 img.pull-left {
+	background-color: lightgrey;
 	float: left;
 }
 
-img.pull-left h2 p span {
-	background-color: orange;
+
+
+.clearfix {
+	clear: both;
 }
 
-div {
-	table-border-color-light: orange;
+
+}
+
+div.container #h2 {
+	float: left;
+	color: darkorange;
+}
+
+#h2 {
+	color: darkorange;
+}
+
+tbody {
+	background: darkorange;
+}
+
+
+footer div.container {
+	background-color: black;
+}
+
+h4 {
+	color: white;
 }
