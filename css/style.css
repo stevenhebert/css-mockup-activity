@@ -5,10 +5,10 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+
 html, body {
 	margin: 0;
 }
-
 
 .container {
 	margin: 0 auto;
@@ -49,31 +49,30 @@ body { width: 100%;}
 
 .sfooter-content {
 	flex: 1 0 auto;
+	font-family:sans-serif;
 }
 
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 .container {
-	margin-top: 5%;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 5%;
-	padding: 5% 2rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3%;
 }
 
-.sfooter {
-	min-font-size: 12;
-}
+
 
 @media only screen and (min-width: 1200px) {
 	.container { width: 65%; }
 }
 
 
+
 header .container {
 	background-color: darkorange;
 }
+
 
 
 h1 {
@@ -82,77 +81,66 @@ h1 {
 }
 
 
+
 em {
 	float: none;
 	color: white;
 }
 
+div.pull-left {
+	color: darkorange;
+}
+
+
 
 img {
-	display: inherit;
-	max-width:230px;
-	max-height:95px;
-	width: auto;
-	height: auto;
-}
-
-
-
-div.container .instructions {
-	border: 6px solid darkorange;
-}
-
-
-.pull-right .instructions {
-float: right;
-border: 6px solid darkorange;
-}
-
-img {
+	max-width:20%;
+	max-height:20%;
+	margin-left: 180px;
+	overflow: hidden;
+	text-align: left;
 	float: right
 }
 
-.h2{
-	float: right
-}
 
-.p{
-	float: right
+
+.instructions {
+	border: 4px solid darkorange;
+
 }
 
 
 
 img.pull-left {
-	background-color: lightgrey;
+	width: 400px;
+	padding: 20px;
+	overflow: hidden;
 	float: left;
 }
 
 
 
-.clearfix {
-	clear: both;
-}
-
-
-}
-
-div.container #h2 {
-	float: left;
+h2 {
 	color: darkorange;
+	padding: 5%;
 }
 
-#h2 {
-	color: darkorange;
+
+
+table {
+	width: 100%;
+	height: 100%;
+	background-color: darkorange;
 }
 
-tbody {
-	background: darkorange;
-}
 
 
 footer div.container {
+
 	background-color: black;
 }
+
+
 
 h4 {
 	color: white;
