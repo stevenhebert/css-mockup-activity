@@ -9,6 +9,10 @@ html, body {
 	margin: 0;
 }
 
+container.em {
+	float: right
+}
+
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
@@ -54,17 +58,59 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 
+@media only screen and (min-width: 1200px) {
+	.container { width: 1170px; }
+
+
 header {
 	background-color: orange;
 }
 
-<!-- img already pulled right -->
+.container{
+}
+
+pull-left {
+	float: left;
+}
+
+
+
 .instructions {
+	border: 4px solid darkorange;
+}
+
+.img {
+	float: right;
+}
+
+
+
+
+
+
+.h2{
+	float: right
+}
+
+.p{
+	float: right
+}
+
+img.pull-right {
 	float: right;
 	border: orange;
 }
 
 
-.pull-left {
-	pull-right: "h2"
+
+img.pull-left {
+	float: left;
+}
+
+img.pull-left h2 p span {
+	background-color: orange;
+}
+
+div {
+	table-border-color-light: orange;
 }
